@@ -1,0 +1,4 @@
+interface:
+  display_name: "Petri Net Analyzer"
+  short_description: "Analyze Petri nets and Rust concurrency"
+  default_prompt: "Use $petri-net-analyzer to analyze a Petri net, extract enabled transitions, explain analysis results, or map a Rust concurrency problem into a Petri-net workflow."
