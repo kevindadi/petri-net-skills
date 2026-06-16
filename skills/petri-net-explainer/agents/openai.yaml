@@ -1,0 +1,4 @@
+interface:
+  display_name: "Petri Net Explainer"
+  short_description: "Explain Petri nets and markings"
+  default_prompt: "Use $petri-net-explainer to explain a Petri net, its markings, and its enabled transitions."
