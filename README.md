@@ -1,6 +1,6 @@
 # Petri Net Skills
 
-This folder contains a three-skill Petri-net toolkit.
+This repository contains a three-skill Petri-net toolkit.
 
 ## Skills
 
