@@ -1,0 +1,4 @@
+interface:
+  display_name: "Petri Net Modeler"
+  short_description: "Generate Petri net models from requirements or code"
+  default_prompt: "Use $petri-net-modeler to turn a process description, requirement, or Rust concurrency logic into a Petri net model with assumptions and a validation checklist."
