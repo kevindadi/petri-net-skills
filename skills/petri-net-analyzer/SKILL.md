@@ -111,6 +111,14 @@ Use these files as the integration contract for future implementation:
 - "Given this marking and arc list, summarize the immediate reachable behaviors."
 - "Help me design a unified analyzer workflow that can later call PTPN, RustPTA, and CVN."
 
+## Example Use Cases
+
+- "Check whether this model has a deadlock candidate."
+- "What transitions are enabled in this marking, and why?"
+- "Analyze this Rust channel/lock pattern as a Petri-net abstraction."
+- "Estimate whether this net looks bounded or resource-limited."
+- "Tell me whether a CVN-style lane is needed for this model."
+
 ## Boundaries
 
 This version is a repository skeleton, not a finished backend bundle. It should stay honest about which capabilities are implemented locally and which are planned integration points.

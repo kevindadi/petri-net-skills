@@ -78,6 +78,14 @@ Default to this structure unless the user asks for a different format:
 - "Interpret this small workflow net in plain English."
 - "Tell me whether this model looks like synchronization, mutual exclusion, or a producer-consumer loop."
 
+## Example Use Cases
+
+- "Explain this Petri net as if I am reading it for the first time."
+- "What does token placement in `p_wait` mean here?"
+- "Which transitions can fire from this marking?"
+- "Describe one or two likely next states after `t_submit` fires."
+- "Point out any places where the model suggests blocking or waiting."
+
 ## Boundaries
 
 This first version is optimized for explanation, not exhaustive verification. If the user asks for formal analysis, route toward a separate analyzer-style skill rather than overclaiming here.

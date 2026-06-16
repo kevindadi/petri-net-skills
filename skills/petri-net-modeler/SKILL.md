@@ -90,6 +90,14 @@ Default to this structure:
 - "Generate the smallest net that captures this producer-consumer flow."
 - "Give me a model plus the assumptions I should verify."
 
+## Example Use Cases
+
+- "Model this approval workflow as a Petri net."
+- "Turn this Rust worker queue into a Petri-net abstraction."
+- "Generate a value-aware model for requests that can be new, retrying, or complete."
+- "Produce a minimal net for resource acquire/use/release."
+- "Give me the places, transitions, and assumptions for this process."
+
 ## Boundaries
 
 This first version defines the modeling contract only. It does not yet generate PNML or invoke backend code, but it is structured so those capabilities can be added later.
