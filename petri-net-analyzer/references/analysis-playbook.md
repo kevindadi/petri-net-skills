@@ -45,6 +45,13 @@ Possible outputs:
 - code-to-model hazard candidates,
 - semantic gaps that prevent stronger claims.
 
+For ordinary P/T nets in the shared JSON schema, prefer the local scripts before giving a purely verbal answer:
+
+- `scripts/parse_simple_net.py` for a quick summary,
+- `scripts/enabled_transitions.py` for enabledness,
+- `scripts/fire_transition.py` for one-step firing,
+- `scripts/incidence_matrix.py` for structural matrix output.
+
 ## Step 5: Report Confidence
 
 Use three levels:

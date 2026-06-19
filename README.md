@@ -8,6 +8,11 @@ This repository contains a three-skill Petri-net toolkit.
 - [petri-net-analyzer](./petri-net-analyzer/SKILL.md): inspect an existing net or code-derived abstraction.
 - [petri-net-modeler](./petri-net-modeler/SKILL.md): build a Petri net from a requirement, workflow, or code sketch.
 
+## Shared Assets
+
+- [common/net-schema.md](./common/net-schema.md): shared intermediate representation for structured nets.
+- [examples/producer-consumer/README.md](./examples/producer-consumer/README.md): first cross-skill example artifact.
+
 ## Recommended Flow
 
 1. Use `petri-net-modeler` to turn an idea into a net.

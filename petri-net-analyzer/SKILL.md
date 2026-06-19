@@ -96,12 +96,24 @@ When using more than one lane, add a short `Lane Handoff` section that explains 
 
 Use these files as the integration contract for future implementation:
 
+- [../common/net-schema.md](../common/net-schema.md): shared repository-wide intermediate representation.
 - [references/backend-map.md](references/backend-map.md): role split among PTPN, RustPTA, and CVN.
 - [references/analysis-playbook.md](references/analysis-playbook.md): repeatable analysis procedure.
 - [references/ptpn-lane.md](references/ptpn-lane.md): baseline P/T-net lane behavior and expectations.
 - [references/rustpta-lane.md](references/rustpta-lane.md): Rust concurrency abstraction lane.
 - [references/cvn-lane.md](references/cvn-lane.md): value-rich or colored-net lane.
 - [references/integration-roadmap.md](references/integration-roadmap.md): how to evolve this skeleton into a real composite toolchain.
+
+## Available Scripts
+
+For ordinary P/T nets using the shared JSON shape:
+
+- `scripts/parse_simple_net.py`
+- `scripts/enabled_transitions.py`
+- `scripts/fire_transition.py`
+- `scripts/incidence_matrix.py`
+
+Use these scripts for deterministic first-pass analysis before escalating to richer backends.
 
 ## Example Prompt Shapes
 

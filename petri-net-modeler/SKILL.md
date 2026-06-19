@@ -76,6 +76,7 @@ Default to this structure:
 
 ## References
 
+- Read [../common/net-schema.md](../common/net-schema.md) for the shared output shape expected by the repository.
 - Read [references/backend-map.md](references/backend-map.md) for lane roles.
 - Read [references/modeling-playbook.md](references/modeling-playbook.md) for the construction workflow.
 - Read [references/ptpn-lane.md](references/ptpn-lane.md) for ordinary workflow-net modeling.

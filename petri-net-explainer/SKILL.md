@@ -66,6 +66,7 @@ Default to this structure unless the user asks for a different format:
 
 ## References
 
+- Read [../common/net-schema.md](../common/net-schema.md) when the user provides a repository-standard structured net.
 - Read [references/petri-net-basics.md](references/petri-net-basics.md) when you need a compact terminology refresh.
 - Read [references/explanation-template.md](references/explanation-template.md) when the user wants a structured walkthrough or a teaching-oriented answer.
 - Read [references/common-structures.md](references/common-structures.md) when identifying common modeling motifs such as choice, synchronization, or resource cycling.

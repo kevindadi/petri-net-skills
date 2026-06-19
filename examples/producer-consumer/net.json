@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "name": "producer-consumer",
+    "lane": "PTPN",
+    "source_type": "example"
+  },
+  "places": [
+    { "id": "p_producer_ready", "label": "Producer ready" },
+    { "id": "p_buffer_empty", "label": "Buffer empty" },
+    { "id": "p_buffer_full", "label": "Buffer full" },
+    { "id": "p_consumer_ready", "label": "Consumer ready" }
+  ],
+  "transitions": [
+    { "id": "t_produce", "label": "Produce item" },
+    { "id": "t_consume", "label": "Consume item" }
+  ],
+  "arcs": [
+    { "source": "p_producer_ready", "target": "t_produce", "weight": 1 },
+    { "source": "p_buffer_empty", "target": "t_produce", "weight": 1 },
+    { "source": "t_produce", "target": "p_producer_ready", "weight": 1 },
+    { "source": "t_produce", "target": "p_buffer_full", "weight": 1 },
+    { "source": "p_consumer_ready", "target": "t_consume", "weight": 1 },
+    { "source": "p_buffer_full", "target": "t_consume", "weight": 1 },
+    { "source": "t_consume", "target": "p_consumer_ready", "weight": 1 },
+    { "source": "t_consume", "target": "p_buffer_empty", "weight": 1 }
+  ],
+  "initial_marking": {
+    "p_producer_ready": 1,
+    "p_buffer_empty": 1,
+    "p_buffer_full": 0,
+    "p_consumer_ready": 1
+  },
+  "token_types": [],
+  "guards": [],
+  "extensions": {}
+}
